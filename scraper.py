@@ -7,11 +7,13 @@
 # # Read in a page
 # html = scraperwiki.scrape("http://foo.com")
 #
-print 'hello world I am a happy but tired'
+print 'hello world I am happy but tired'
 # # Find something on the page using css selectors
 # root = lxml.html.fromstring(html)
 # root.cssselect("div[align='left']")
 #
+urltoscrape = "http://bbc.co.uk/cricket
+print urltoscrape
 # # Write out to the sqlite database using scraperwiki library
 # scraperwiki.sqlite.save(unique_keys=['name'], data={"name": "susan", "occupation": "software developer"})
 #
