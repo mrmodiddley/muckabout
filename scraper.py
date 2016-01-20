@@ -14,8 +14,10 @@ print 'hello world I am happy but tired'
 #
 urltoscrape = "www.bbc.co.uk/cricket"
 print urltoscrape
-My_age = 180
+My_age = 39
 print My_age
+urltoscrape = urltoscrape+"p1"
+print urltoscrape
 # # Write out to the sqlite database using scraperwiki library
 # scraperwiki.sqlite.save(unique_keys=['name'], data={"name": "susan", "occupation": "software developer"})
 #
