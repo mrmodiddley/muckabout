@@ -12,7 +12,7 @@ print 'hello world I am happy but tired'
 # root = lxml.html.fromstring(html)
 # root.cssselect("div[align='left']")
 #
-urltoscrape = "www.bbc.co.uk/cricket"
+urltoscrape = "www.bbc.co.uk/cricket/"
 print urltoscrape
 My_age = 39
 print My_age
