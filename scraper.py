@@ -24,8 +24,6 @@ mynumlist = [1, 4, 9, 16]
 print mynumlist
 numlistlength = len(mynumlist)
 print numlistlength
-alert ('Machines are taking over the world. ')
-alert ('Machines are taking over the world. ');
 #
 #
 #
