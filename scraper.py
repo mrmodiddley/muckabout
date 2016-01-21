@@ -26,8 +26,8 @@ numlistlength = len(mynumlist)
 print numlistlength
 stringlength = len(myvar)
 print stringlength
-numlength = len(myage)
-print numlength
+numlistlength = len(myage)
+print numlistlength
 #
 #
 #
