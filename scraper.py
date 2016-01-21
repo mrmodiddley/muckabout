@@ -20,9 +20,9 @@ mylist = ['hello', 'is it me', "you're looking for"]
 print mylist
 listlength = len(mylist)
 print listlength
+# The next two lines are the same as the two above this.  It does not matter what the 'blah' bit reads as.  This only prints out once in the list.
 blah = len(mylist)
 print blah
-# The previous two lines are the same as the two above it.  It does not matter what the 'blah' bit reads as.  This only prints out once in the list.
 mynumlist = [1, 4, 9, 16]
 print mynumlist
 numlistlength = len(mynumlist)
