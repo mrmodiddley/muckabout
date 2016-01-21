@@ -29,12 +29,13 @@ myage = 39
 mylist = ['hello', 'is it me', "you're looking for"]
 mynumlist = [1, 4, 9, 16]
 listlength = len(mylist)
+numlistlength = len(mynumlist)
 print myvar
 print myage
 print mylist
 print mynumlist
 print listlength
-
+print numlistlength
 # urltoscrape = urltoscrape+"p1"
 # print urltoscrape
 # # Write out to the sqlite database using scraperwiki library
