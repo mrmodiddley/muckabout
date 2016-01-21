@@ -1,18 +1,6 @@
-# This is a template for a Python scraper on morph.io (https://morph.io)
-# including some code snippets below that you should find helpful
-
-# import scraperwiki
-# import lxml.html
-#
-# # Read in a page
-# html = scraperwiki.scrape("http://foo.com")
+#This is what I did on the 20th PM
 #
 print 'hello world I am happy but tired'
-# # Find something on the page using css selectors
-# root = lxml.html.fromstring(html)
-# root.cssselect("div[align='left']")
-#
-#This is what I did on the 20th PM
 urltoscrape = "www.bbc.co.uk/cricket/"
 print urltoscrape
 My_age = 39
@@ -25,20 +13,21 @@ for blah in listylist:
 
 #This is what I did on the 21st AM
 myvar = "He is a potato head"
-myage = 39
-mylist = ['hello', 'is it me', "you're looking for"]
-mynumlist = [1, 4, 9, 16]
-listlength = len(mylist)
-numlistlength = len(mynumlist)
 print myvar
+myage = 39
 print myage
+mylist = ['hello', 'is it me', "you're looking for"]
 print mylist
-print mynumlist
+listlength = len(mylist)
 print listlength
+mynumlist = [1, 4, 9, 16]
+print mynumlist
+numlistlength = len(mynumlist)
 print numlistlength
-# urltoscrape = urltoscrape+"p1"
-# print urltoscrape
-# # Write out to the sqlite database using scraperwiki library
+#
+#
+#
+# Write out to the sqlite database using scraperwiki library
 # scraperwiki.sqlite.save(unique_keys=['name'], data={"name": "susan", "occupation": "software developer"})
 #
 # # An arbitrary query against the database
