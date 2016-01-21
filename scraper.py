@@ -20,14 +20,19 @@ mylist = ['hello', 'is it me', "you're looking for"]
 print mylist
 listlength = len(mylist)
 print listlength
+blah = len(mylist)
+print blah
+# The previous two lines are the same as the two above it.  It does not matter what the 'blah' bit reads as.  This only prints out once in the list.
 mynumlist = [1, 4, 9, 16]
 print mynumlist
 numlistlength = len(mynumlist)
 print numlistlength
 stringlength = len(myvar)
 print stringlength
-numlistlength = len(myage)
-print numlistlength
+secondchar = mylist(1)
+# the line above says find the 1 character i.e. second character as the first would be zero
+# numlistlength = len(myage) - this does not work because it is an integer.  It creates an error.
+# print numlistlength
 #
 #
 #
