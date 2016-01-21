@@ -29,8 +29,8 @@ numlistlength = len(mynumlist)
 print numlistlength
 stringlength = len(myvar)
 print stringlength
+# the line below says find the 1 character i.e. second character as the first would be zero
 secondchar = mylist(1)
-# the line above says find the 1 character i.e. second character as the first would be zero
 # numlistlength = len(myage) - this does not work because it is an integer.  It creates an error.
 # print numlistlength
 #
