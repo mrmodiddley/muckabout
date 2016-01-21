@@ -24,6 +24,10 @@ mynumlist = [1, 4, 9, 16]
 print mynumlist
 numlistlength = len(mynumlist)
 print numlistlength
+stringlength = len(myvar)
+print stringlength
+numlength = len(myage)
+print numlength
 #
 #
 #
