@@ -12,6 +12,7 @@ print 'hello world I am happy but tired'
 # root = lxml.html.fromstring(html)
 # root.cssselect("div[align='left']")
 #
+#This is what I did on the 20th PM
 urltoscrape = "www.bbc.co.uk/cricket/"
 print urltoscrape
 My_age = 39
@@ -21,6 +22,19 @@ for blah in listylist:
   print blah
   fullurl = urltoscrape+blah
   print fullurl
+
+#This is what I did on the 21st AM
+myvar = "He is a potato head"
+myage = 39
+mylist = ['hello', 'is it me', "you're looking for"]
+mynumlist = [1, 4, 9, 16]
+listlength = len(mylist)
+print myvar
+print myage
+print mylist
+print mynumlist
+print listlength
+
 # urltoscrape = urltoscrape+"p1"
 # print urltoscrape
 # # Write out to the sqlite database using scraperwiki library
